@@ -18,6 +18,7 @@ Your task is to refactor the RefundService class and add additional classes in o
 
    ```bash
    git clone https://github.com/netcall-liberty/csharp-adapter-task.git
+   cd csharp-adapter-task/src
    ``` 
 
-2. Open the solution and get coding!
+2. Open `AdapterExample-v1.sln`
