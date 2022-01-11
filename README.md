@@ -9,7 +9,7 @@ In its current implementation, the `RefundService` is closely coupled to the (fa
 One solution to this problem is to implement the Adapter pattern (see https://www.dofactory.com/net/adapter-design-pattern).
 
 Our RefundService class is the Client in the adapter pattern and our FakeWorldPayWebService and FakePayPalWebService classes can be considered Adaptees. 
-Your task is to refactor the RefundService class and add additional classes in order to implement this pattern. On completion of the task, the Client should no longer need to be aware of how the underlying Adaptees implementation.
+Your task is to refactor the RefundService class and add additional classes in order to implement this pattern. On completion of the task, the Client should no longer need to be aware of the underlying Adaptees implementation.
 
 Add automated tests to validate your changes.
 
