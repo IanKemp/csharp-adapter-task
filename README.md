@@ -2,6 +2,7 @@
 
 ## The Problem
 This solution contains a simple `RefundService` that talks to different payment providers. `FakePayPalWebService` and `FakeWorldPayWebService` represent the live WorldPay and PayPal web services. These are simply ‘mock’ classes that demonstrate the functionality that the payment merchants offer.
+
 In its current implementation, the `RefundService` is closely coupled to the (fake) third party services, which amongst other things makes the code long, potentially difficult to read, and not easily extendable or unit testable. The situation would only get worse over time as more and more payment providers are added.
 
 ## Your Task
