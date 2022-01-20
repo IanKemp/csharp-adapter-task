@@ -1,4 +1,4 @@
-﻿namespace AdapterExample_v1
+﻿namespace AdapterExample_v1.Entity
 {
     public class RefundResponse
     {

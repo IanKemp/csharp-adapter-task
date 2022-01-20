@@ -1,4 +1,4 @@
-﻿namespace AdapterExample_v1
+﻿namespace AdapterExample_v1.Implementation
 {
     // Stub class to act as a PayPal web service
     public class FakePayPalWebService
@@ -12,6 +12,5 @@
         {
             return "Auth: 0999";
         }
-
     }
 }

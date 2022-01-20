@@ -1,4 +1,4 @@
-﻿namespace AdapterExample_v1
+﻿namespace AdapterExample_v1.Implementation
 {
     // Stub class to act as a WorldPay web service
     public class FakeWorldPayWebService
@@ -7,6 +7,5 @@
         {
             return "A_Success - 09901";
         }
-
     }
 }

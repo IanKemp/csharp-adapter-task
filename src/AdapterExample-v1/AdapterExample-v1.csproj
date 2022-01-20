@@ -40,13 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FakePayPalWebService.cs" />
-    <Compile Include="FakeWorldPayWebService.cs" />
-    <Compile Include="PaymentType.cs" />
+    <Compile Include="Contract\IPaymentWebServiceAdapter.cs" />
+    <Compile Include="Implementation\FakePayPalWebService.cs" />
+    <Compile Include="Implementation\FakeWorldPayWebService.cs" />
+    <Compile Include="Implementation\PayPalPaymentWebServiceAdapter.cs" />
+    <Compile Include="Implementation\WorldPayPaymentWebServiceAdapter.cs" />
+    <Compile Include="Entity\PaymentType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RefundRequest.cs" />
-    <Compile Include="RefundResponse.cs" />
-    <Compile Include="RefundService.cs" />
+    <Compile Include="Entity\RefundRequest.cs" />
+    <Compile Include="Entity\RefundResponse.cs" />
+    <Compile Include="Implementation\RefundService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

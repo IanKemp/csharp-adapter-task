@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterExample-v1", "AdapterExample-v1\AdapterExample-v1.csproj", "{A17A1BA1-EC6F-483A-9EF7-28A931127ECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterTests", "AdapterTests\AdapterTests.csproj", "{8FC64EDE-3B8B-46D2-88B9-80B323489A12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{A17A1BA1-EC6F-483A-9EF7-28A931127ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A17A1BA1-EC6F-483A-9EF7-28A931127ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A17A1BA1-EC6F-483A-9EF7-28A931127ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC64EDE-3B8B-46D2-88B9-80B323489A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC64EDE-3B8B-46D2-88B9-80B323489A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC64EDE-3B8B-46D2-88B9-80B323489A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC64EDE-3B8B-46D2-88B9-80B323489A12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {157EFB97-95FD-4C7E-83B9-6456F6E9C177}
 	EndGlobalSection
 EndGlobal
